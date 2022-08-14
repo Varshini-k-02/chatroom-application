@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-j$y2ask$ntvrqyhmcnauc12-p#z08c(te_xpb)e=7q*#g=una@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['chatroom-studybud.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
