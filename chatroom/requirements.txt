@@ -8,10 +8,6 @@ Django==3.2
 filelock==3.0.12
 gunicorn==20.1.0
 heroku==0.1.4
-ibm-cloud-sdk-core==3.10.1
-ibm-db==3.0.4
-# ibm-db-django==1.5.0.0
-ibm-watson==5.2.2
 idna==2.10
 Pillow==8.2.0
 psycopg2==2.8.6
