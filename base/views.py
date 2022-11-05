@@ -79,7 +79,7 @@ def home(request):
 
 def room(request,pk):
     room=Room.objects.get(id=pk)
-    # underscore for many-to-one rel and dot . for manny to many rel
+    # underscore for many-to-one rel and dot . for many to many rel
     room_messages = room.message_set.all()
     #message - model name
     participants = room.participants.all()
